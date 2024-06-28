@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f80f4b8cedb6e43866d3e7808d40ef, type: 3}
+  m_Name: How can you change the source image of an Image component named 'iconImage'
+    in Unity C#
+  m_EditorClassIdentifier: 
+  question: How can you change the source image of an Image component named 'iconImage'
+    in Unity C#?
+  category: PRU211
+  answers:
+  - '"iconImage.sprite = Resources.Load<Sprite>(""NewImage"");"'
+  - '"ChangeImage(""iconImage"" :""NewImage"");"'
+  - '"iconImage.ChangeSprite(""NewImage"");"'
+  - '"iconImage.SetImage(""NewImage"");"'

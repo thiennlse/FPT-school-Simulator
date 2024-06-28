@@ -1,0 +1,4 @@
+repository "Xavalo-Simulator@Thien_Nguyen@cloud"
+  path "/"
+    br "/main"
+    co "/main"

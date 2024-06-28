@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f80f4b8cedb6e43866d3e7808d40ef, type: 3}
+  m_Name: How can you use C# to trigger an event when a specific frame of an animation
+    is reached
+  m_EditorClassIdentifier: 
+  question: How can you use C# to trigger an event when a specific frame of an animation
+    is reached?
+  category: PRU211
+  answers:
+  - Attach a script to the Animator component with a method for the frame.
+  - Use a Coroutine to check the animation frame continuously.
+  - Create a custom animation controller to handle frame-based events.
+  - Utilize the AnimationEvents class to handle frame-specific events.

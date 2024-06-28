@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FPT_Scene1.unity
+    guid: ed57650a495c0ed4cb0f941c955198c2
+  - enabled: 1
+    path: Assets/Scenes/Inside_School_Scene.unity
+    guid: 511f14d033ff7ab46af1f2f8c2226ae4
+  - enabled: 1
+    path: Assets/Scenes/In_Class_Scene.unity
+    guid: 80acd17a5aabf7344be7add4b05a913e
+  - enabled: 1
+    path: Assets/Scenes/PRO391.unity
+    guid: 0767a0bd2a5aff247af356db6675a8d7
+  - enabled: 1
+    path: Assets/Scenes/PRU212.unity
+    guid: 70493b6398d39e140ac612c30be6f1e4
+  - enabled: 1
+    path: Assets/Scenes/SWD391.unity
+    guid: 294e26815950e3e41a266ed9d0048d12
+  - enabled: 1
+    path: Assets/Scenes/SWP391.unity
+    guid: 19cfec4a6d6b3114481cda63e95796de
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: 9fe7b25acd3d6f14da8e0207ad92df37
+  - enabled: 1
+    path: Assets/Scenes/PRU212Quiz.unity
+    guid: 4eeb4c3cf3d48fb4aa8db7fbba733da3
+  - enabled: 1
+    path: Assets/Scenes/SWD391Quiz.unity
+    guid: 20e49237dbe3aa44ebe54902cbf7567c
+  - enabled: 1
+    path: Assets/Scenes/SWP391Quiz.unity
+    guid: b2437066eedf44549a3b20b9228aa2da
+  m_configObjects: {}

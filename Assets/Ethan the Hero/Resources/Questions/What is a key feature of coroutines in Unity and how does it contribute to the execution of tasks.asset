@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f80f4b8cedb6e43866d3e7808d40ef, type: 3}
+  m_Name: What is a key feature of coroutines in Unity and how does it contribute
+    to the execution of tasks
+  m_EditorClassIdentifier: 
+  question: What is a key feature of coroutines in Unity and how does it contribute
+    to the execution of tasks?
+  category: PRU211
+  answers:
+  - Coroutines allow asynchronous execution useful for tasks over time like animations
+    or delays.
+  - Coroutines are exclusive to editor-based tasks and don't affect runtime.
+  - Coroutines are specifically designed for CPU-intensive operations.
+  - Coroutines execute synchronously ensuring immediate task completion.

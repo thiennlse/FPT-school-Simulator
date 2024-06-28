@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f80f4b8cedb6e43866d3e7808d40ef, type: 3}
+  m_Name: How do you programmatically handle a click event for a Button named exitButton
+    in Unity C#
+  m_EditorClassIdentifier: 
+  question: How do you programmatically handle a click event for a Button named exitButton
+    in Unity C#
+  category: PRU211
+  answers:
+  - exitButton.onClick.AddListener(() => ExitGame());
+  - exitButton.RegisterClickEvent(ExitGame);
+  - exitButton.OnClick.AddListener(ExitGame);
+  - AddListener(exitButton; ExitGame);
